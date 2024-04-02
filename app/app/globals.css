@@ -33,4 +33,12 @@
   p{
     @apply text-sm;
   }
+
+  input{
+    @apply border border-gray-300 rounded-md p-2
+  }
+
+  button{
+    @apply bg-blue-600 text-white rounded-md p-2 hover:bg-blue-700;
+  }
 }
